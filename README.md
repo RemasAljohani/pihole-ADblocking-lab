@@ -136,17 +136,5 @@ Upstream traffic went to `one.one.one.one` (Cloudflare), and many queries were a
 ## Possible Next Steps
 
 - Add extra blocklists and test their effect
-- Set up a local DNS-over-HTTPS upstream (for example with `cloudflared`)
 - Try the same setup on a Raspberry Pi
 - Create client groups with different filtering rules
-
-## Repository Structure
-
-```
-.
-├── README.md
-└── docs/
-    └── images/
-        ├── dashboard.png
-        └── before-after.png
-```
