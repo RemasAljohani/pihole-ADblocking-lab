@@ -2,7 +2,7 @@
 
 A home lab that runs **Pi-hole** (a DNS sinkhole) inside an Ubuntu virtual machine and forces all DNS traffic from a Windows 11 host through it. Ads, trackers and known malicious domains are blocked at the DNS layer, before they reach the browser.
 
-![Pi-hole dashboard](docs/images/dashboard.png)
+![Pi-hole dashboard](Pi-hole%20dashboard.png)
 
 ## Overview
 
@@ -104,7 +104,7 @@ The server shows up as `pi.hole` and Google's records resolve with no errors. Th
 
 I ran the same online ad blocker test (132 test domains) before and after switching Windows to use Pi-hole as its DNS server.
 
-![Before and after Pi-hole](docs/images/before-after.png)
+![Before and after Pi-hole](before-after.png)
 
 | | Blocked | Not blocked | Score |
 |---|---------|-------------|-------|
